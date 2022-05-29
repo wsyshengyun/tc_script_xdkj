@@ -1,14 +1,6 @@
 ﻿变量 线程ID = 0
 var b_check_update = 1
 
-
-
-
-
-
-
-
-
 //从这里开始执行
 功能 执行()
     //从这里开始你的代码
@@ -17,7 +9,6 @@ var b_check_update = 1
 
 function update()
     _login()
-    
     _move_click(687,197)
     sleep(1000)
     _move_click(732,333)
@@ -96,7 +87,6 @@ function _login()
     _move_click(937,618)
     
     sleep(2500)  //enter url
-    
 end
 
 
